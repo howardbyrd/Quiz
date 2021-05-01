@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QUiz</title>
+</head>
+<body>
+	<h1>Take the QUiz!</h1>
+	<form method="post" action="result.php">
+		<div>
+		<label>1. In what year was QU founded?</label>
+		<input type="text" name="year">
+	</div>
+	<div>
+		<label>2. In what town is the Mount Carmel campus located?</label>
+		<input type="text" name="town">
+	</div>
+	<div>
+		<label>3. After whom is the medical school named?</label>
+		<select name="medicalschool">
+			<option value="Leonardo DaVinci">Leonardo DaVinci</option>
+			<option value="Andreas Vesalius">Andreas Vesalius</option>
+			<option value="Frank Netter">Fran Netter</option>
+		</select>
+	</div>
+	<div>
+		<label>4. Is the Arnold Bernard Library located on the North Haven campus?</label>
+		<input type="radio" name="library" value="yes" checked="checked">Yes 
+		<input type="radio" name="library" value="yo">No
+	</div>
+	<div>
+		<label>5. Which of the following majors can you take at the school of business?</label>
+		<input type="checkbox" name="finance">Finance
+		<input type="checkbox" name="psychology">Psychology
+		<input type="checkbox" name=cis>CIS
+	</div>
+		<div>
+		<label>6. Where is the Crescent dorms located?</label>
+		<input type="text" name="crescent">
+	</div>
+	<div>
+		<label>7. What school is the computer science program a part of??</label>
+		<select name="compscience">
+			<option value="School of Business">School of Business</option>
+			<option value="College of Arts and Sciences">College of Arts and Sciences</option>
+			<option value="School of Engineering">School of Engineering</option>
+		</select>
+	</div>
+	<div>
+		<label>8. Does the School of Engineering offer a master's program at Quinnipiac?</label>
+		<input type="radio" name="masters" value="yes" checked="checked">Yes 
+		<input type="radio" name="masters" value="yo">No
+	</div>
+	<div>
+		<label>9. Which of the following majors offers you the ability to do a double major in 4 years?</label>
+		<input type="checkbox" name="BS CS">Bachelor's of Science Computer Science
+		<input type="checkbox" name="BA CS">Bachelor's of Arts Computer Science
+		<input type="checkbox" name="BS CIS">Bachelor's of Science Computer Information Systems
+		<input type="checkbox" name="BS SE">Bachelor's of Science Software Engineering
+	</div>
+		<button>Submit</button>
+	</form>
+</body>
+</html>
